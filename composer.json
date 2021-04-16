@@ -1,0 +1,28 @@
+{
+    "name": "kapitannwel/laravelfileupload",
+    "description": "Laravel File Upload",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kapitan Pulido",
+            "email": "kapitannwel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+          "psr-4": {
+          "App\\": "app/",
+          "kapitannwel\\LaravelFileUpload\\": "src/"
+      }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "kapitannwel\\LaravelFileUpload\\LaravelFileUploadServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "require": {}
+}
